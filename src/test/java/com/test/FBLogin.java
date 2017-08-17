@@ -33,7 +33,7 @@ WebDriver driver;
 		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("anshu.shrivastava");
 		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("Dec231280@fb");
 		driver.findElement(By.xpath(".//*[@id='loginbutton']")).click();
-		//Assert.assertEquals("Facebook", driver.getTitle());
+		
 		
 		
 		driver.findElement(By.xpath(".//*[@id='userNavigationLabel']")).click();
